@@ -62,8 +62,6 @@ function logout(){
     })
 }
 
-/* setTimeout(login, 2000); */
-
 // Sessão do usuário
 
 function read(){

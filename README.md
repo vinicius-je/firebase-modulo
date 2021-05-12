@@ -1,7 +1,7 @@
-## Firebase módulo
- 
-Conteúdo trabalhado durante as aulas de firebase do curso ProgramadorBr
+## firebase-modulo
+
+Conteúdo trabalhado durante as aulas do módulo firebase/firestore do curso ProgramadorBr
 
 ## Tópicos abordados:
-* Cloud Firestore
-* Authentication 
+* Cloud Storage
+* Authentication

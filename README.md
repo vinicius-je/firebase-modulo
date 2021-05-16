@@ -5,3 +5,4 @@ Conteúdo trabalhado durante as aulas do módulo firebase/firestore do curso Pro
 ## Tópicos abordados:
 * Cloud Storage
 * Authentication
+* Firebase Storage

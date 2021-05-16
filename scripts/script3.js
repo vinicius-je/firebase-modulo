@@ -15,12 +15,28 @@ const storage = firebase.storage();
 // const ref = storage.ref();
 
 // reference to pasta photos
-const ref = storage.ref('/fotos');
+const ref = storage.ref('/fotos/leon-ell-f6HbVnGtNnY-unsplash.jpg');
 
-ref.listAll().then(res => {
+// back to root folder
+ref.root.listAll().then(res => {
+    console.log(res)
+});
 
-   res.items[0].getDownloadURL().then(url => {
-       console.log(url)
-   })
+// reference to the sibling file in the root folder
+// ref.parent.child("profile.jpg").getDownloadURL().then(url => { console.log(url)});
 
-})
+// reference to the file inside the photo folder
+// const fileRef = ref.child("leon-ell-f6HbVnGtNnY-unsplash.jpg")
+// fileRef.getDownloadURL().then(url => { console.log(url)})
+
+// const fileParent = fileRef.parent;
+
+// fileParent.listAll().then(res => {
+//     console.log(res)
+//  })
+
+// ref.listAll().then(res => {
+//    res.items[0].getDownloadURL().then(url => {
+//        console.log(url)
+//    })
+// })
